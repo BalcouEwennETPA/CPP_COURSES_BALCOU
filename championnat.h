@@ -12,5 +12,10 @@ class Championnat{
 
         
     public :
+        int getNombresCourses; 
+        int getCoursepseudo; 
+        std::string afficheTempsmoyen; 
+        int getMeilleurtemps;
+        int getTempsadditionés;
       
     }
