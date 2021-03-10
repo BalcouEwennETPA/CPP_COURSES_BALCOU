@@ -1,9 +1,8 @@
-# 1 "C:\\Users\\Game\\Desktop\\CPP_COURSES_BALCOU\\course.cpp"
+# 1 "C:\\Users\\Game\\Desktop\\CPP_COURSES_BALCOU\\CPP_COURSES_BALCOU.cpp"
 # 1 "C:\\Users\\Game\\Desktop\\CPP_COURSES_BALCOU//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:\\Users\\Game\\Desktop\\CPP_COURSES_BALCOU\\course.cpp"
-# 1 "C:\\Users\\Game\\Desktop\\CPP_COURSES_BALCOU\\course.h" 1
+# 1 "C:\\Users\\Game\\Desktop\\CPP_COURSES_BALCOU\\CPP_COURSES_BALCOU.cpp"
 # 1 "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string" 1 3
 # 36 "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string" 3
        
@@ -17970,7 +17969,7 @@ namespace std
 
 }
 # 54 "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string" 2 3
-# 2 "C:\\Users\\Game\\Desktop\\CPP_COURSES_BALCOU\\course.h" 2
+# 2 "C:\\Users\\Game\\Desktop\\CPP_COURSES_BALCOU\\CPP_COURSES_BALCOU.cpp" 2
 # 1 "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream" 1 3
 # 36 "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream" 3
        
@@ -26568,7 +26567,11 @@ namespace std
 
 
 }
-# 3 "C:\\Users\\Game\\Desktop\\CPP_COURSES_BALCOU\\course.h" 2
+# 3 "C:\\Users\\Game\\Desktop\\CPP_COURSES_BALCOU\\CPP_COURSES_BALCOU.cpp" 2
+# 1 "C:\\Users\\Game\\Desktop\\CPP_COURSES_BALCOU\\course.cpp" 1
+# 1 "C:\\Users\\Game\\Desktop\\CPP_COURSES_BALCOU\\course.h" 1
+
+
 
 
 # 4 "C:\\Users\\Game\\Desktop\\CPP_COURSES_BALCOU\\course.h"
@@ -26608,3 +26611,16 @@ int Course::getBestscorerace(){
 
 
 Course::Course(std::string Pseudo, std::string nameCourse, int score) : _Pseudo(Pseudo), _nameCourse(nameCourse), _Score(Score)
+# 4 "C:\\Users\\Game\\Desktop\\CPP_COURSES_BALCOU\\CPP_COURSES_BALCOU.cpp" 2
+
+using namespace std;
+
+int main(){
+    Course race1 ("Mario","Route arc-en-ciel","50");
+    Course race2 ("Waluigi","Temple Thwomp","48");
+    Course race3 ("Bowser","Big Blue","35");
+    Course race4 ("Peach","Koopapolis","67")
+    Course race5 ("Yoshi","Parc Baby","37");
+
+
+}
