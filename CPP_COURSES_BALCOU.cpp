@@ -1,6 +1,7 @@
 #include <string>
 #include <iostream>
 #include "course.cpp"
+#include "championnat.cpp"
 
 using namespace std;
 
@@ -11,5 +12,5 @@ int main(){
     Course race4 ("Peach","Koopapolis","67")
     Course race5 ("Yoshi","Parc Baby","37");
 
-    
+
 }
